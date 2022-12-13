@@ -1,0 +1,312 @@
+/*.smallp {
+    width: 1500px;
+    height: 1500px;
+    background-color: aqua;
+}*/
+
+.tz {
+    max-width: 400px;
+    /* width: auto;
+    lahne bech ye5ou el width ta3 el child te3ou eli heya el taswira donc width = 3192px */
+
+    /*max-width : 600 px ; this makes the element max width to 600 px and it allows it to shrink under 600 px so it will be responsive*/
+}
+
+.logos {
+    /*display: block;*/
+    width: 100px;
+    height: 50px;
+    margin-left: 42%;
+    /*margin-left: 200px;
+    margin-right: 200px;*/
+    /* margin-left: auto;
+    margin-right: auto;
+*/
+
+}
+
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.1px;
+
+}
+
+.inner {
+    background: transparent;
+    background-color: transparent;
+
+}
+
+/*.par {
+    margin: 0;
+    padding: 0;
+}
+
+.test1 {
+    background-color: aqua;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}*/
+
+
+.fruit1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+
+}
+
+/*
+.fruit2 {
+    width: 300px;
+    height: 300px;
+    margin-left: 200px
+}
+
+.justh {
+    position: relative;
+    bottom: -200px;
+}*/
+
+
+.fulll {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+
+
+.bookm {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: black;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+
+}
+
+.favor:hover {
+    filter: brightness(80%);
+
+}
+
+.favor {
+    left: 80%;
+    top: 2%;
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    border-radius: 11px;
+    background-color: white;
+    opacity: 0.8;
+    visibility: hidden;
+
+
+
+}
+
+
+
+.para {
+
+    color: black;
+    text-align: center;
+    font-family: bold;
+    font-style: italic;
+    font-size: small;
+
+
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 2px;
+
+
+}
+
+.food_label {
+    visibility: hidden;
+    height: 27px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 11px;
+    position: absolute;
+    top: 85%;
+    left: 4%;
+    opacity: 0.8;
+
+
+
+}
+
+.food_label:hover {
+    filter: brightness(80%);
+
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+    padding-left: 0px;
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+    letter-spacing: 6px;
+    color: #6a6a88;
+    text-shadow: -2px -2px 0 #04222d,
+        -3px -3px 0 #04222d;
+    cursor: pointer;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar {
+    text-align: center;
+    float: left;
+    /* padding: 15px;*/
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.tabs-inner {
+    background-image: linear-gradient(#343a40, rgba(0, 0, 0, 0));
+
+}
+
+.login {
+    padding-top: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    font-size: 15px;
+    color: aliceblue;
+    font-family: serif;
+    padding-bottom: 3px;
+    border-bottom: 1px solid aliceblue;
+    padding-bottom: 3px;
+}
+
+.form_search {
+    margin-top: 250px;
+    margin-bottom: 150px;
+}
+
+.downl {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    color: black;
+}
+
+.downloads {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    height: 25px;
+    top: 85%;
+    left: 80%;
+    border-radius: 11px;
+    visibility: hidden;
+}
+
+.usr_input {
+    border: 2px solid rgb(85, 84, 84);
+    background-color: rgb(97, 111, 119);
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+
+
+}
+
+.input_recipe {
+    padding-left: 5%;
+
+    width: 88%;
+    height: 100%;
+    border: none;
+    border-radius: 30px;
+    /*background: none;*/
+    outline: none;
+    opacity: 0.7;
+}
+
+#search {
+    color: rgb(230, 217, 217);
+    position: relative;
+
+
+
+
+}
+
+.center {
+    position: absolute;
+    left: 33%;
+}
+
+.not_found_h1 {
+    margin-top: 160px;
+}
+
+/*.pleasedown {
+    margin-top
+}*/
+.carousel_img {
+    width: 100%;
+    height: 690px;
+}
+
+
+.scroll-down {
+    color: rgb(97, 111, 119);
+    margin-left: 50%;
+    margin-top: 2%;
+}
+
+.carousel-caption {
+
+    margin-left: 56.3%;
+    width: 29%;
+    height: 100%;
+}
+
+.carousel-caption h2,
+p {
+    font-family: cursive;
+}
+
+.text_cap {
+    margin-top: 200px;
+}
+
+.carousel-caption p {
+    margin-top: 50px;
+    font-size: medium;
+    position: relative;
+    left: 10%;
+    right: 12%;
+}
